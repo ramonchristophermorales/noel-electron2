@@ -1,8 +1,8 @@
 <template>
-    <div id="wrapper">
+    <div id="">
 
         <main>
-            landing page
+            about
         </main>
 
     </div>

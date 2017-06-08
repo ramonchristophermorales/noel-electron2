@@ -11,9 +11,14 @@ export default new Router({
       component: require('@/components/LandingPage')
     },
     {
-      path: '/testing',
-      name: 'testing',
-      component: require('@/components/TestingPage')
+      path: '/columns',
+      name: 'columns',
+      component: require('@/components/ColumnsPage')
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: require('@/components/AboutPage')
     },
     {
       path: '*',

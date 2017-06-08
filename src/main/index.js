@@ -48,3 +48,6 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+// add system-tray
+// require('./system-tray.js')

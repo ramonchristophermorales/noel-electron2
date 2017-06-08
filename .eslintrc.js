@@ -10,7 +10,9 @@ module.exports = {
   },
   extends: 'standard',
   globals: {
-    __static: true
+    __static: true,
+    '$': true,
+    'jQuery': true
   },
   plugins: [
     'html'
