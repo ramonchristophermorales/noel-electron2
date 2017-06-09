@@ -26,7 +26,7 @@
     let RcmEloquent = require('../assets/RcmEloquent.js')
     let eloquent = new RcmEloquent()
 
-    eloquent.testing()
+    console.log(eloquent.testing())
 
 export default {
       mounted () {

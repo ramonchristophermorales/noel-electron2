@@ -1,15 +1,7 @@
+/* exported RcmEloquent */
 
-'use strict'
-
-class RcmEloquent {
-  init () {
-    console.log('Initializing RcmEloquent')
-  }
-
-  testing () {
-    console.log('success')
-  }
+var RcmEloquent = {
+  	testing: function () {
+  		console.log('testing')
+  	}
 }
-
-let testRcmEloquent = new RcmEloquent()
-testRcmEloquent.init()
